@@ -1,0 +1,6 @@
+web:
+  container_name: ginger_ruby
+  build: .
+  volumes:
+   - ./code/:/var/ruby/code/
+  tty: true
