@@ -15,3 +15,5 @@ RUN yes | apt-get install rubygems
 RUN yes | apt-get install nano
 
 RUN gem install mqtt
+
+RUN gem install httparty

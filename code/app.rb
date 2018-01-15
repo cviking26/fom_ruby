@@ -5,6 +5,7 @@ require_relative 'qs.rb'
 # https://github.com/njh/ruby-mqtt
 require 'mqtt'
 
+
 print "Which number? - "
 n = gets.to_i
 
